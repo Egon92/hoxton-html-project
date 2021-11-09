@@ -252,7 +252,7 @@ header .just-in{
     font-size: 28px;
     align-content: end;
     justify-content: center space-between;
-    /* padding-bottom: 2rem; */
+    
     text-decoration: none;
     color: #f2f4f3;
     font-family: Arial, Helvetica, sans-serif;
@@ -268,3 +268,132 @@ header .just-in{
     place-content: center;
     
 }
+.main-news{
+    margin-top: 3rem;
+    display: grid;
+    grid-auto-flow:column;
+    grid-template-columns: repeat(3 autofit);
+    gap: 2rem;
+    justify-content: center;
+}
+.left-news,
+.right-news,
+.most-popular{
+    display: grid;
+    grid-template-rows: repeat(2, auto) 1fr;
+    align-content: start;
+    gap: 1rem;
+    
+}
+.left-news a,
+.right-news a{
+    color: black;
+    display: grid;
+    grid-template-rows: repeat(2, auto) 1fr;
+    align-content: start;
+    gap: 1rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    border: solid rgba(0, 0, 0, 0.082);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: inset;
+    
+}
+
+
+.left-news-div,
+.right-news-div{
+    display: grid;
+    height: 180px;
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/01/7a/5c/d2/pristina.jpg");
+    background-repeat:no-repeat; 
+    background-size:cover;
+    background-position: center;
+    align-content: end;
+    color: white;
+    text-decoration: none;
+}
+.left-news-div span,
+.right-news-div span{
+    display: grid;
+    align-content: center;
+    position: relative;
+    top: 1rem;
+    padding: 9px 15px;
+    background-color: #37583E;
+    width: 150px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #f2f4f3;
+}
+.left-news h2,
+.right-news h2{
+    display:grid;
+    padding-top: 5px;
+    
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.left-news h4,
+.right-news h4{
+    text-transform: uppercase;
+    color:#37583E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    
+}
+.left-news-bottom,
+.right-news-bottom{
+    margin-top: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 30px minmax(autofit);
+    gap: 1rem;
+    align-content: center;
+    
+    
+}
+.left-news-bottom img,
+.right-news-bottom img{
+    width: 100%;
+    display: grid;
+    
+    
+}
+.news-bottom-text{
+    display: grid;
+    grid-template-rows: minmax(autfit) auto auto;
+
+}
+.news-bottom-text .topic{
+    background-color:#37583E ;
+    color: #f2f4f3;
+}
+.news-bottom-text h3{
+    display: grid;
+    align-content: start;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.left-news-bottom,
+.right-news-bottom{
+    border: solid rgba(0, 0, 0, 0.082);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: inset;
+}
+.left-news-bottom a,
+.right-news-bottom a{
+    border: none;
+}
+
