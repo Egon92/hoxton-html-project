@@ -397,3 +397,90 @@ header .just-in{
     border: none;
 }
 
+.most-popular{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    
+}
+.most-popular-head{
+    padding-bottom: 2rem;
+    border: solid rgba(0, 0, 0, 0.082);
+    border-top-style: inset;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: inset;
+}
+.most-popular-head h2{
+    display: grid;
+    grid-template-rows: 4.5rem;
+    align-items: end;
+    width: 100%;
+    color: #0505059d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.most-popular-item{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1rem minmax(autofit);
+    justify-content: center space-between;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    border: solid rgba(0, 0, 0, 0.082);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: inset;
+    
+}
+.most-popular-item a{
+    display: grid;
+    place-content: start space-between;
+    text-decoration: none;
+    color: unset;
+}
+.most-popular-text{
+    display: grid;
+    
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+    
+.most-popular-item .number{
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-content: center;
+    background-color:#37583E ;
+    color: #f2f4f3;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif; ;
+}
+#load-more{
+    display: grid;
+    grid-template-rows: 3rem;
+    place-items: center;
+}
+#load-more a{
+    display: grid;
+    place-content: center;
+    width: 90%;
+    height: 100%;
+    text-decoration: none;
+    color: #05050552;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: solid rgba(0, 0, 0, 0.082);
+    border-radius: 5px;
+    transition: 0.2s;
+}
+#load-more a:hover{
+    box-shadow: 2px 1px 1px 0.1px black;
+    transition: 0.5s;
+    border: none;
+}
