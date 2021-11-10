@@ -238,6 +238,26 @@ background-color: #526155;
 }
 
 
+.social{
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    grid-template-columns: repeat(2, 20px);
+    gap: 2rem;
+}
+.social img{
+    display: grid;
+    place-items: center;
+    width: 130%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.social img:hover{
+    transform: scale(1.01, 1.01);
+    box-shadow: 3px 0.5px 0 0.1px black;
+    transition: 0.3s;
+    border-radius: 10px;
+}
 
 
 
