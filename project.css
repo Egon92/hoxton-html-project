@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /* outline: solid black 1px; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
 }
 nav{
     background-color: #37583E;
@@ -81,39 +82,6 @@ background-color: #526155;
 
 
 
-.countries{
-    display: grid;
-    grid-auto-flow: row;
-    align-content: end;
-    grid-template-rows: repeat(2, auto);
-}
-.countries ul{
-    display: grid;
-    grid-template-rows: repeat(12, autofit);
-    height: 0.3rem;
-    z-index: 3;
-    
-}
-.countries a {
-    display: grid;
-    width: 100px;
-    background-color: #37583E ;
-    font-size: 10px;
-    text-transform: uppercase;
-    
-}
-.countries a li{
-    display: grid;
-    place-content: center;
-    
-}
-.countries li:hover{
-    text-decoration: underline;
-}
-
-
-
-
 
 
 section{
@@ -166,13 +134,12 @@ header ul{
     list-style: none;
     display: grid;
     grid-template-rows: repeat(7, autofit);
-    place-content: start;
+    place-items: start;
     width: 250px;
-    margin-left: 6rem;
+    margin-left: 8rem;
     display: grid;
-    place-content: start;
     border-right-style: inset;
-    padding: 2rem;
+   
 }
 header ul h1{
     display: grid;
@@ -237,7 +204,7 @@ header .just-in{
 
 
 .content{
-    /* margin-top: 2rem; */
+    
     display: grid;
     grid-template-columns: 400px 1fr;
     height: 100%;
@@ -602,6 +569,12 @@ header .just-in{
     border: solid #f2f4f3 1px;
     height: 100%;
 }
+
+footer{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+}
+
 .footer-li{
     display: grid;
     grid-auto-flow: column;
@@ -631,6 +604,9 @@ header .just-in{
     color: unset;
     text-transform: uppercase;
 }
+.footer-li a:hover{
+    text-decoration: underline;
+}
 .footer-li h3{
     color:#f2f4f3;
 }
@@ -652,4 +628,32 @@ header .just-in{
 #go-to-begining:hover{
     transform: translateY(-2px);
     transition: 0.5s;
+}
+.copyrights{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    place-items: center;
+    gap: 5px;
+    background-color:rgb(0, 0, 0);
+    color:#f2f4f39d;
+    padding: 1rem;
+    font-size: 12px;
+}
+.copyright-logo-box{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 3px;
+}
+.copyright-logo-box img{
+    display: grid;
+    align-items: end;
+    width: 15px;
+}
+.copyright-plicies{
+    text-decoration: none;
+    color: unset;
+}
+.copyright-plicies:hover{
+    text-decoration: underline;
 }
