@@ -46,6 +46,157 @@ nav a{
 .left-nav .menu-logo:hover{
 background-color: #526155;
 }
+.slide-in-menu {
+    
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+    width: 105px;
+    padding-bottom: 1.7rem;
+    list-style: none;
+    background-color: #37583E;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    transform: translateX(-1000px);
+    transition: 1s;
+    text-decoration: none;
+    color: unset;
+    
+  }
+  .slide-in-menu li{
+      display: grid;
+      
+      font-size: 10px;
+  }
+  .menu-logo:hover .slide-in-menu{
+    transform: translateX(0px);
+    transition: 0.3s;
+  }
+
+.menu-logo:hover {
+background-color: #526155;
+}
+#country{
+    display: grid;
+    place-content: start;
+    font-size: 15px;
+}
+.country:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+.slide-in-menu-news {
+    
+    display: grid;
+    place-content: start;
+    gap: 2rem;
+    width: 120px;
+    padding-bottom: 1.7rem;
+    list-style: none;
+    background-color: #37583E;
+    position: fixed;
+    top: 5rem;
+    left: 6.6rem;
+    transform: translateY(-1000px);
+    transition: 1s;
+    text-decoration: none;
+    color: unset;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+  }
+  .slide-in-menu-news .country{
+      display: grid;
+      place-items: start;
+      font-size: 10px;
+  }
+  .news:hover .slide-in-menu-news{
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+  .country:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.slide-in-menu-policy {
+    
+    display: grid;
+    place-content: start;
+    gap: 2rem;
+    width: 123px;
+    padding-bottom: 1.7rem;
+    list-style: none;
+    background-color: #37583E;
+    position: fixed;
+    top: 5rem;
+    left: 14.15rem;
+    transform: translateY(-1000px);
+    transition: 1s;
+    text-decoration: none;
+    color: unset;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+  }
+  .slide-in-menu-policy .country{
+      display: grid;
+      place-items: start;
+      font-size: 10px;
+  }
+  .policy:hover .slide-in-menu-policy{
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+  .country:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.slide-in-menu-opinion {
+    
+    display: grid;
+    place-content: start;
+    gap: 2rem;
+    width: 135px;
+    padding-bottom: 1.7rem;
+    list-style: none;
+    background-color: #37583E;
+    position: fixed;
+    top: 5rem;
+    left: 22rem;
+    transform: translateY(-1000px);
+    transition: 1s;
+    text-decoration: none;
+    color: unset;
+    padding-left: 5px;
+    padding-top: 5px;
+    
+  }
+  .slide-in-menu-opinion .country{
+      display: grid;
+      place-items: start;
+      font-size: 10px;
+  }
+  .opinion:hover .slide-in-menu-opinion{
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+  .country:hover{
+    text-decoration: underline;
+}
 .right-nav{
     display: grid;
     grid-auto-flow: column;
