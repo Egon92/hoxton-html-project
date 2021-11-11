@@ -161,42 +161,8 @@ background-color: #526155;
   .country:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-.slide-in-menu-opinion {
-    z-index: 1;
-    display: grid;
-    place-content: start;
-    gap: 2rem;
-    width: 135px;
-    padding-bottom: 1.7rem;
-    list-style: none;
-    background-color: #37583E;
-    position: fixed;
-    top: 5rem;
-    left: 22rem;
-    transform: translateY(-1000px);
-    transition: 1s;
-    text-decoration: none;
-    color: unset;
-    padding-left: 5px;
-    padding-top: 5px;
-    
-  }
-  .slide-in-menu-opinion .country{
-      display: grid;
-      place-items: start;
-      font-size: 10px;
-  }
-  .opinion:hover .slide-in-menu-opinion{
-    transform: translateY(0px);
-    transition: 0.3s;
-  }
+  
+  
   .country:hover{
     text-decoration: underline;
 }
@@ -651,7 +617,7 @@ header .just-in{
 
 
 
-.opinion-title-bar{
+#opinion-title-bar{
     margin-top: 2rem;
     display:grid;
     grid-auto-flow: column;
@@ -665,17 +631,17 @@ header .just-in{
     border-right: none;
     border-bottom-style: inset;
 }
-.opinion-title-bar a{
+#opinion-title-bar a{
     text-decoration: none;
     color: unset;
     font-family: Arial, Helvetica, sans-serif;
     
 }
-.opinion-title-bar h3{
+#opinion-title-bar h3{
     font-weight: 900;
     font-size: 20px;
 }
-.opinion-title-bar #more{
+#opinion-title-bar #more{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
