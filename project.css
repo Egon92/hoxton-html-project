@@ -6,7 +6,15 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     scroll-behavior: smooth;
 }
-nav{
+.top-nav{
+   position: sticky;
+   top: 0;
+  width: 100%;
+  z-index: 6;
+  opacity: 0.956789;
+  
+   
+   
    
     background-color: #37583E;
     color: #f2f4f3;
@@ -19,12 +27,12 @@ nav{
     grid-template-columns: minmax(auto-fit, 350px) 1fr 1fr;
     place-content: center space-between;
 }
-nav ul {
+.top-nav ul {
     
     list-style: none;
     
 }
-nav a{
+.top-nav a{
     
     text-decoration: none;
     color: unset;
@@ -230,6 +238,9 @@ background-color: #526155;
 
 
 section{
+    
+    
+    margin-top: 0;
     margin-left: 8rem;
     display: grid;
     grid-auto-flow: column;
@@ -276,6 +287,7 @@ section .search{
 
 
 header ul{
+    
     list-style: none;
     display: grid;
     grid-template-rows: repeat(7, autofit);
@@ -355,6 +367,7 @@ header .just-in{
     height: 100%;
 }
 .content main{
+    
     display: grid;
     grid-template-rows: minmax(auto, 400px) 1fr;
     align-content: start;
@@ -369,7 +382,7 @@ header .just-in{
     background-repeat:no-repeat; 
     background-size:auto;
     background-position: center;
-    backdrop-filter: opacity(20%);
+    
     display: grid;
     font-size: 28px;
     align-content: end;
@@ -378,7 +391,7 @@ header .just-in{
     color: #f2f4f3;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    backdrop-filter: blur(90px);
+    
 }
 .main-img-box div{
     margin-bottom: 2rem;
