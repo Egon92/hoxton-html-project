@@ -40,7 +40,7 @@ nav a{
     place-content: center;
     padding: 28px 40px;
 }
-.news{
+.left-nav .news{
     background-color: #f2f4f3 ;
     color:#526155 ;
 }
@@ -533,7 +533,35 @@ header .just-in{
 
 
 
-
+.comment{
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: auto;
+    place-content: center;
+    position: relative;
+    right: 8.2rem;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.comment label{
+    display: grid;
+    gap: 2rem;
+    width: 250%;
+}
+textarea{
+padding-left: 1rem;
+padding-top: 0.5rem;
+font-size: 18px;
+border-top: none;
+border-right: none;
+border-left: none;
+border-radius: 5px;
+}
+textarea:hover{
+    border: solid black 1px; 
+    
+}
 
 
 
