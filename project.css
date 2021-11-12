@@ -68,6 +68,10 @@
     text-decoration: none;
     color: unset;
 }
+.menu-logo:hover .slide-in-menu{
+    transform: translateX(0px);
+    transition: 0.3s;
+}
 .slide-in-menu.right{
     right: 0;
     left: unset;
